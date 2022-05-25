@@ -1,0 +1,11 @@
+build
+*~
+*.pyc
+.\#*
+\#*\#
+*.o
+*.e
+*.png
+*.svg
+dask-worker-space
+test
