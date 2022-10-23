@@ -3,15 +3,11 @@
 
 import dask
 import dask.array as da
-from dask.distributed import Client
 
 # Example from : https://examples.dask.org/dataframe.html
 
 
 if __name__ == "__main__":
-
-    # Define a client, you can adapt the number of worker and thread per workers
-    client = Client(n_workers=2, threads_per_worker=2, memory_limit="1GB")
 
     # create a random timeseries
     df = dask.datasets.timeseries()
