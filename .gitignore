@@ -9,4 +9,5 @@ build
 *.svg
 **/*.ipynb_checkpoints/
 dask-worker-space
+dask-logs
 test
